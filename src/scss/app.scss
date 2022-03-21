@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(250, 235, 215, 0.144);
+}
+
+#formColor{
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.233);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 100px;
+}
+
+select{
+  padding: 2px;
+}
+
+#btnCreate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: aquamarine;
+}
+
+
+.card {
+  background-color: pink;
+  position: absolute;
+  width: 250px;
+  height: 240px;
+  padding: 15px;
+}
+
+.form-edit {
+  display: none;
+}
+
+.edited .form-edit {
+  display: block;
+  height: 150px;
+
+  textarea {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+  }
+}
+
+.edited .card__item {
+  display: none;
+}
+
+.btnRemove {
+  font-size: 30px;
+  background: red;
+  width: 45px;
+  height: 45px;
+}
